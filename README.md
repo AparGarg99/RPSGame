@@ -14,7 +14,7 @@ OpenCV library was used for all camera related operations.
 1. **Split** - 
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG)
 2. The pipeline.config file cotains the pipeline followed.<br>
-&nbsp;2.1. **Augmentation** - 
+&nbsp;2.1. **Augmentation** - <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG)
 <br>
 &nbsp;2.2. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
