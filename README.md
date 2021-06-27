@@ -26,6 +26,7 @@ OpenCV library was used for all camera related operations.
 **Base**
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_1.PNG)
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_2.PNG)
+<br>
 **Tuned**
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_1.PNG)
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_2.PNG)
