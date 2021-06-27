@@ -10,10 +10,10 @@ OpenCV library was used for all camera related operations.
 ## ✔️Methodology
 1. **Split** - <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG) <br>
-2. The pipeline.config file cotains the pipeline followed.<br>
-&nbsp; 2.1. **Augmentation** - <br>
+2. The pipeline.config file contains the pipeline followed.<br>
+&nbsp; 2.1. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
+&nbsp; 2.2. **Augmentation** - <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br>
-&nbsp; 2.2. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
 &nbsp; 2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8]() model.
 3. **Deployment using OpenCV** - The flow for this implementation is simple: (1) Start webcam feed and read each frame. (2) Pass this frame to model for classification ie. predict class. (3) Make a random move by computer. (4) Calculate Score.
 
