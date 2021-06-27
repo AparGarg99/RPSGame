@@ -17,15 +17,15 @@ OpenCV library was used for all camera related operations.
 &nbsp; 2.1. **Augmentation** - <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br>
 &nbsp; 2.2. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
-&nbsp; 2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8]() model
+&nbsp; 2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8]() model.
 
 
 ### ✔️Results
-After training the model for 20 epochs, final training and validation set losses were 1.19 and 1.16 respectively.
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG
 
-***Note:***
-* *The training stopped pre-maturely and may have improved with more epochs. But due to memory limitation in Google Colab, epochs were set to 20.*
-* *I did not perform testing on the test set because of huge time and memory complexity. Instead, I performed inference on random test images.*
+**Base**
+
+**Tuned**
 
 ### ✔️Future Work
 I have several ideas to improve this project:
