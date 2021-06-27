@@ -12,11 +12,10 @@ A rock-paper-scissors game using a live video feed from the camera. Transfer lea
 1. **Split** - <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG) <br>
 2. The [pipeline.config]() file contains the pipeline followed.<br>
-&nbsp; 2.1. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
-&nbsp; 2.2. **Augmentation** - <br><br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br><br>
-&nbsp; 2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) model to detect 3 hand 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gestures. The 3 gestures: (1) Peace (V) sign - Scissors sign. (2) Fist - Rock sign. (3) Straight hand or Five - Paper sign. <br>
+    2.1. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
+    2.2. **Augmentation** - <br><br>
+    ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br><br>
+    2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) model to detect 3 hand gestures. The 3 gestures: (1) Peace (V) sign - Scissors sign. (2) Fist - Rock sign. (3) Straight hand or Five - Paper sign. <br>
 
 3. **Deployment using OpenCV** - The flow for this implementation is simple: (1) Start webcam feed and read each frame. (2) Pass this frame to model for classification ie. predict class. (3) Make a random move by computer. (4) Calculate Score.
 
