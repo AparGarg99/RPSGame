@@ -1,9 +1,9 @@
 # Overview 📚
 ## ✔️Abstract
-A rock-paper-scissors game using live video feed from the camera. Transfer learning was used to fine-tune SSD_mobilenet_v2, a pre-trained [Tensorflow Object Detection (TFOD)](https://github.com/tensorflow/models/tree/master/research/object_detection) model, to detect the 3 hand gestures. 
-[OpenCV](https://opencv.org/) library was used for all camera related operations.
+A rock-paper-scissors game using a live video feed from the camera. Transfer learning was used to fine-tune SSD_mobilenet_v2, a pre-trained [Tensorflow Object Detection (TFOD)](https://github.com/tensorflow/models/tree/master/research/object_detection) model, to detect the 3 hand gestures. 
+[OpenCV](https://opencv.org/) library was used for all camera-related operations.
 
-*Initially I trained the model on less images and epochs. Since the results were not good, I tuned the model by adding more variety of images and training on more epochs.*
+*Initially I trained the model on fewer images and epochs. Since the results were not good, I tuned the model by adding more variety of images and training on more epochs.*
 ## ✔️Dataset
 * I created a [custom dataset]() for this project. <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
@@ -34,15 +34,14 @@ A rock-paper-scissors game using live video feed from the camera. Transfer learn
 
 ## ✔️Future Work
 I have several ideas to improve this project:
-* Train other better performing TFOD models.
+* Train other better-performing TFOD models.
 * Design better GUI.
 * Add more data in different surroundings with different lightings.
 * Add a gesture to terminate the game.
-* Take appropriate action if user shows more than one gestures simultaneously.
+* Take appropriate action if the user shows more than one gesture simultaneously.
 
 
 # GUI 👨‍💻
-![trim](https://user-images.githubusercontent.com/54896849/119932196-6e3b8880-bfa0-11eb-8c26-1c0f32bd98ce.gif)
 
 
 # Installation and Usage 🔌
@@ -51,4 +50,4 @@ I have several ideas to improve this project:
 <br>
 <br>
 
-***Dont forget to give a ⭐ if you like this project !!***
+***Don't forget to give a ⭐ if you like this project !!***
