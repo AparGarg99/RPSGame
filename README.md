@@ -1,13 +1,13 @@
 # Overview 📚
-### ✔️Abstract
+## ✔️Abstract
 A rock-paper-scissors game using live video feed from the camera. Transfer learning was used to fine-tune the SSD_mobilenet_v2 pre-trained object detection model to learn how to classify and localize 3 hand gestures. 
 OpenCV library was used for all camera related operations.
 
-### ✔️Dataset
+## ✔️Dataset
 * I made my own custom dataset. Later on try changing the data and re-training the model to see the grave impact data has on a DL model.
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
 
-### ✔️Methodology
+## ✔️Methodology
 
 
 1. **Split** - <br>
@@ -19,19 +19,19 @@ OpenCV library was used for all camera related operations.
 &nbsp; 2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8]() model.
 3. **Deployment using OpenCV** - The flow for this implementation is simple: (1) Start webcam feed and read each frame. (2) Pass this frame to model for classification ie. predict class. (3) Make a random move by computer. (4) Calculate Score.
 
-### ✔️Results
+## ✔️Results
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)
 
-**Base**
+### Base
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_1.PNG)
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_2.PNG)
 <br>
-**Tuned**
+### Tuned
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_1.PNG)
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_2.PNG)
 
 
-### ✔️Future Work
+## ✔️Future Work
 I have several ideas to improve this project:
 * Train other better performing TFOD models.
 * Design better GUI.
