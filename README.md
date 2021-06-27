@@ -10,8 +10,8 @@ OpenCV library was used for all camera related operations.
 ### ✔️Methodology
 
 
-1. **Split** - 
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG)
+1. **Split** - <br>
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG) <br>
 2. The pipeline.config file cotains the pipeline followed.<br>
 &nbsp; 2.1. **Augmentation** - <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br>
