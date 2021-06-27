@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper</folder>
+	<filename>paper.557b3c6c-d57f-11eb-bfb9-fc34974b24e8.jpg</filename>
+	<path>C:\Users\aparg\Desktop\TFODCourse\Tensorflow\workspace\images\collectedimages\paper\paper.557b3c6c-d57f-11eb-bfb9-fc34974b24e8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>25</ymin>
+			<xmax>340</xmax>
+			<ymax>140</ymax>
+		</bndbox>
+	</object>
+</annotation>

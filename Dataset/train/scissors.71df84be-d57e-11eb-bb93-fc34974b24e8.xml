@@ -1,0 +1,26 @@
+<annotation>
+	<folder>scissors</folder>
+	<filename>scissors.71df84be-d57e-11eb-bb93-fc34974b24e8.jpg</filename>
+	<path>C:\Users\aparg\Desktop\TFODCourse\Tensorflow\workspace\images\collectedimages\scissors\scissors.71df84be-d57e-11eb-bb93-fc34974b24e8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>scissors</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>434</xmin>
+			<ymin>112</ymin>
+			<xmax>489</xmax>
+			<ymax>218</ymax>
+		</bndbox>
+	</object>
+</annotation>

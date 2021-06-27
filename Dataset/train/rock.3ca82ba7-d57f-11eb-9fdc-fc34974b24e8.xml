@@ -1,0 +1,26 @@
+<annotation>
+	<folder>rock</folder>
+	<filename>rock.3ca82ba7-d57f-11eb-9fdc-fc34974b24e8.jpg</filename>
+	<path>C:\Users\aparg\Desktop\TFODCourse\Tensorflow\workspace\images\collectedimages\rock\rock.3ca82ba7-d57f-11eb-9fdc-fc34974b24e8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rock</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>485</xmin>
+			<ymin>63</ymin>
+			<xmax>584</xmax>
+			<ymax>173</ymax>
+		</bndbox>
+	</object>
+</annotation>
