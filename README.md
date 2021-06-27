@@ -5,7 +5,7 @@ A rock-paper-scissors game using a live video feed from the camera. Transfer lea
 
 *Initially I trained the model on fewer images and epochs. Since the results were not good, I tuned the model by adding more variety of images and training on more epochs.*
 ## ✔️Dataset
-* I created a [custom dataset]() for this project. <br>
+I created a [custom dataset]() for this project. <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
 
 ## ✔️Methodology
