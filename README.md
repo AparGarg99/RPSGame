@@ -21,11 +21,15 @@ OpenCV library was used for all camera related operations.
 
 
 ### ✔️Results
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)
 
 **Base**
-
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_1.PNG)
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_2.PNG)
 **Tuned**
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_1.PNG)
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_2.PNG)
+
 
 ### ✔️Future Work
 I have several ideas to improve this project:
