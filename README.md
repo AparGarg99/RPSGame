@@ -3,8 +3,8 @@
 A rock-paper-scissors game using live video feed from the camera. Transfer learning was used to fine-tune SSD_mobilenet_v2, a pre-trained Tensorflow Object Detection (TFOD) model, to classify and localize 3 hand gestures. 
 OpenCV library was used for all camera related operations.
 
+*I developed 2 models*
 ## ✔️Dataset
-* I made my own custom dataset. Later on try changing the data and re-training the model to see the grave impact data has on a DL model.
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
 
 ## ✔️Methodology
