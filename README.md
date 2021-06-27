@@ -10,15 +10,15 @@ OpenCV library was used for all camera related operations.
 
 ### ✔️Methodology
 
-I used [fastai v1](https://github.com/fastai/fastai) for transforming images and training the DL network.*
 
-1. **Split** - 101000 images were split into train, validation and test set. Train = 60600, Validation = 15150, Test = 25250.
-2. **Augmentation** - Fastai has a method called [get_transforms()](https://fastai1.fast.ai/vision.transform.html#get_transforms) for augmenting images. It returns a tuple of two lists of transforms: one for the training set and one for the validation set. The first list of transforms applies default and random transformations with a probability of 75%: crop, horizontal flip, zoom up to 1.1, brightness and contrast, wrap (perspective). The second list of transforms is limited to resizing the pictures since we don't want to modify the images in the validation set.
-3. **Preprocessing** - First, the images were resized to 224x224 pixel squares and then they were normalized (using [normalize()](https://fastai1.fast.ai/vision.data.html#ImageDataBunch.normalize) method in fastai).
-4. **Model Development** - I performed transfer learning on ResNet34 (Deep CNN network). The model was trained on a GPU in [Google Colab](https://colab.research.google.com
-).
+1. **Split** - 
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG)
+2. The pipeline.config file cotains the pipeline followed.<br>
+&nbsp;2.1. **Augmentation** - 
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG)
+&nbsp;2.2. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
+&nbsp;2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8]() model
 
-Then I created an app using [Streamlit](https://streamlit.io/) to showcase this project. The app allows users to interact with the trained model without any need for coding. Users can enter the image address/URL from the internet or upload their own image and see how the model would classify it. The app outputs the following 3 things: (i) Predicted food class. (ii) Link to the [Wikipedia](https://www.wikipedia.org/) page of the predicted food class. (iii) Link to the [Google Images](https://www.google.com/imghp?hl=EN) page of the predicted food class.
 
 ### ✔️Results
 After training the model for 20 epochs, final training and validation set losses were 1.19 and 1.16 respectively.
