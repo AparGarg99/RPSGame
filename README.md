@@ -38,14 +38,11 @@ I have several ideas to improve this project:
 * Add a gesture to terminate the game.
 * Take appropriate action if user shows more than one gestures simultaneously.
 
----
----
 
 # GUI 👨‍💻
 ![trim](https://user-images.githubusercontent.com/54896849/119932196-6e3b8880-bfa0-11eb-8c26-1c0f32bd98ce.gif)
 
----
----
+
 # Installation and Usage 🔌
 [Click Here](https://github.com/AparGarg99/Tutorials/blob/master/streamlit_frontend_tutorial/README.md#installation-and-usage) for reference.
 
