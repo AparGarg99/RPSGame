@@ -1,6 +1,6 @@
 # Overview 📚
 ## ✔️Abstract
-A rock-paper-scissors game using a live video feed from the camera. Transfer learning was used to fine-tune SSD_mobilenet_v2, a pre-trained [Tensorflow Object Detection (TFOD)](https://github.com/tensorflow/models/tree/master/research/object_detection) model, to detect the 3 hand gestures. 
+A rock-paper-scissors game with the computer using a live video feed from the camera. Transfer learning was used to fine-tune SSD_mobilenet_v2, a pre-trained [Tensorflow Object Detection (TFOD)](https://github.com/tensorflow/models/tree/master/research/object_detection) model, to detect the 3 hand gestures. 
 [OpenCV](https://opencv.org/) library was used for all camera-related operations.
 
 *Initially I trained the model on fewer images and epochs. Since the results were not good, I tuned the model by adding more variety of images and training on more epochs.*
@@ -33,7 +33,7 @@ The training performance of the models was as follows:
 
 ## ✔️Future Work
 I have several ideas to improve this project:
-* Train other better-performing TFOD models.
+* Retrain other better-performing TFOD models.
 * Design better GUI.
 * Add more data in different surroundings with different lightings.
 * Add a gesture to terminate the game.
