@@ -5,7 +5,7 @@ OpenCV library was used for all camera related operations.
 
 *Initially I trained the model on less images and epochs. Since the results were not good, I tuned the model by adding more variety of images and training on more epochs.*
 ## ✔️Dataset
-* Custom dataset
+* I created a custom dataset for this project. <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
 
 ## ✔️Methodology
