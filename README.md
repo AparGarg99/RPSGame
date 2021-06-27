@@ -33,7 +33,7 @@ The training performance of the models was as follows:
 
 ## ✔️Future Work
 I have several ideas to improve this project:
-* Retrain other better-performing TFOD models.
+* Re-train other better-performing TFOD models.
 * Design better GUI.
 * Add more data in different surroundings with different lightings.
 * Add a gesture to terminate the game.
