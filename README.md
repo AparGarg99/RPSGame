@@ -34,9 +34,12 @@ OpenCV library was used for all camera related operations.
 
 ### ✔️Future Work
 I have several ideas to improve this project:
-* Train other popular CNN networks like VGG and Inception --> Present a real-time comparison-based study on the app when a user gives an image.
-* Check predicted confidence --> Say something about not being sure about the prediction if it is under some threshold.
-* Add functionality of performing image processing in the app using OpenCV (check out my [project](https://github.com/AparGarg99/Tutorials/tree/master/streamlit_frontend_tutorial/app7_opencv_tutorial)) --> Users can analyze in real-time how transforming an image affects the prediction.
+* Train other better performing TFOD models.
+* Design better GUI.
+* Add more data in different surroundings with different lightings.
+* Add a gesture to terminate the game.
+* Take appropriate action if user shows more than one gestures simultaneously.
+
 ---
 ---
 
