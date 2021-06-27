@@ -6,7 +6,7 @@ OpenCV library was used for all camera related operations.
 ### ✔️Dataset
 * Custom dataset
 * I made my own dataset. Later on try changing the data and re-training the model to see the grave impact data has on a DL model.
-[](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/dataset.PNG)
 
 ### ✔️Methodology
 
