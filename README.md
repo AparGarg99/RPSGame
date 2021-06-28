@@ -11,7 +11,7 @@ I created a [custom dataset]() for this project. <br>
 ## ✔️Methodology
 1. **Split** - <br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/split.PNG) <br>
-2. The [pipeline.config]() file contains the pipeline followed.<br>
+2. The pipeline.config file contains the pipeline followed.<br>
     2.1. **Preprocessing** - Images were resized to 320x320 pixel squares.<br>
     2.2. **Augmentation** - <br><br>
     ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br><br>
