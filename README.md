@@ -41,7 +41,7 @@ I have several ideas to improve this project:
 
 
 # GUI 👨‍💻
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/final2.gif)
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/final2.gif)<br>
 ***Note:*** *The system works well with both the hands*
 
 # Installation and Usage 🔌
