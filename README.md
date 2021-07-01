@@ -41,10 +41,11 @@ I have several ideas to improve this project:
 
 
 # GUI 👨‍💻
-
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/final.gif)
 
 # Installation and Usage 🔌
-[Click Here](https://github.com/AparGarg99/Tutorials/tree/master/TFOD) for reference.
+1. To label images and train model [Click Here](https://github.com/AparGarg99/Tutorials/tree/master/TFOD) for reference.
+2. Develop the game using [main.ipynb](https://github.com/AparGarg99/RPSGame/blob/master/main.ipynb)
 
 <br>
 <br>
