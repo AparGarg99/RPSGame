@@ -42,10 +42,10 @@ I have several ideas to improve this project:
 
 # GUI 👨‍💻
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/final2.gif)<br>
-***Note:*** *The system works well with both the hands*
+***Note:*** *The system detects gestures well from both the hands.*
 
 # Installation and Usage 🔌
-1. To label images and train model [click here](https://github.com/AparGarg99/Tutorials/tree/master/TFOD) for reference.
+1. To label images and train the model refer this [tutorial](https://github.com/AparGarg99/Tutorials/tree/master/TFOD).
 2. To develop the game use [main.ipynb](https://github.com/AparGarg99/RPSGame/blob/master/main.ipynb)
 
 <br>
