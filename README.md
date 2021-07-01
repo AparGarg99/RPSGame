@@ -42,10 +42,11 @@ I have several ideas to improve this project:
 
 # GUI 👨‍💻
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/final.gif)
+***Note: The system works well with both the hands***
 
 # Installation and Usage 🔌
 1. To label images and train model [click here](https://github.com/AparGarg99/Tutorials/tree/master/TFOD) for reference.
-2. Develop the game using [main.ipynb](https://github.com/AparGarg99/RPSGame/blob/master/main.ipynb)
+2. To develop the game use [main.ipynb](https://github.com/AparGarg99/RPSGame/blob/master/main.ipynb)
 
 <br>
 <br>
