@@ -23,7 +23,6 @@ I created a [custom dataset](https://github.com/AparGarg99/RPSGame/tree/master/D
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)<br>
 Before proceeding, take note of the following:<br>
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/eval_metrics.JPG)<br>
-The training performance of the models was as follows:
 ### Base Model
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_1.PNG)
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_2.PNG)
