@@ -21,7 +21,7 @@ I created a [custom dataset](https://github.com/AparGarg99/RPSGame/tree/master/D
 
 ## ✔️Results
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)<br>
-
+[Know More](https://github.com/AparGarg99/RPSGame/tree/master/images)
 
 ## ✔️Future Work
 I have several ideas to improve this project:
