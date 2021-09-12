@@ -21,15 +21,6 @@ I created a [custom dataset](https://github.com/AparGarg99/RPSGame/tree/master/D
 
 ## ✔️Results
 ![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)<br>
-Before proceeding, take note of the following:<br> <br>
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/eval_metrics.JPG)<br>
-### Base Model
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_1.PNG)
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/v1_2.PNG)
-<br>
-### Tuned Model
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_1.PNG)
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/v2_2.PNG)
 
 
 ## ✔️Future Work
