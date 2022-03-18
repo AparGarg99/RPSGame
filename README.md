@@ -17,10 +17,15 @@ I created a [custom dataset](https://github.com/AparGarg99/RPSGame/tree/master/D
     ![](https://github.com/AparGarg99/RPSGame/blob/master/images/augment.PNG) <br><br>
     2.3. **Model Development** - Transfer Learning was performed on [ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) model to detect 3 hand gestures. The 3 gestures were: (1) Peace (V) sign - Scissors sign. (2) Fist - Rock sign. (3) Straight hand or Five - Paper sign. <br>
 
+![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)<br>
+
 3. **Game Development** - OpenCV was used for all camera-related operations. The flow for this implementation was simple: (1) Start webcam feed and read each frame. (2) Pass this frame to model for classification ie. predict class. (3) Make a random move by computer. (4) Calculate Score.
 
 ## ✔️Results
-![](https://github.com/AparGarg99/RPSGame/blob/master/images/epochs.PNG)<br>
+mAP on Test dataset
+* Base Model: 0.80
+* Tuned Model: 0.90
+
 [Know More](https://github.com/AparGarg99/RPSGame/tree/master/images)
 
 ## ✔️Future Work
