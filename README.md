@@ -22,9 +22,9 @@ I created a [custom dataset](https://github.com/AparGarg99/RPSGame/tree/master/D
 3. **Game Development** - OpenCV was used for all camera-related operations. The flow for this implementation was simple: (1) Start webcam feed and read each frame. (2) Pass this frame to model for classification ie. predict class. (3) Make a random move by computer. (4) Calculate Score.
 
 ## ✔️Results
-mAP on Test dataset
-* Base Model: 0.80
-* Tuned Model: 0.90
+mAP on Test dataset:
+* Base Model - 0.80
+* Tuned Model - 0.90
 
 [Know More](https://github.com/AparGarg99/RPSGame/tree/master/images)
 
